@@ -1,0 +1,3 @@
+<span class="reading-time" title="Tempo di lettura stimato">
+  {% assign words = include.content | number_of_words %}
+  {% if words < 270 %} 1 minuto {% else %} {{ words | divided_by:135 }} minuti {% endif %} per leggerlo </span>

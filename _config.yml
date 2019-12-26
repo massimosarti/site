@@ -1,0 +1,27 @@
+title:              Massimo Sarti
+email:              email@massimosarti.it
+description:        Trainer | Consultant | Community Manager
+author:             Massimo Sarti
+# baseurl:            "/startbootstrap-clean-blog-jekyll"
+baseurl:            ""
+url:                "https://massimosarti.it"
+
+# Social Profiles
+twitter_username:   Omixxam
+github_username:    massimosarti
+facebook_username:  massimo.sarti.ms
+linkedin_username:  massimo.sarti
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap 
+  
+  ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
