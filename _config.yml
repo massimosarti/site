@@ -13,7 +13,7 @@ facebook_username:  massimo.sarti.ms
 linkedin_username:  sartimassimo
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+google_analytics:   UA-155063208-1 # out your google-analytics code
 
 # Build settings
 markdown:           kramdown
