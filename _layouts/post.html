@@ -37,14 +37,41 @@ layout: default
         <hr>
 
         <div class="clearfix">
+            
+        {% assign tag = page.tags[0] %}
 
-          {% if page.previous.url %}
-          <a class="btn btn-primary float-left" href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.previous.title }}">&larr; Previous<span class="d-none d-md-inline">
-              Post</span></a>
+{% for post in site.tags[tag] %}
+  {% if post.url == page.url %}
+    {% assign post_index0 = forloop.index0 %}
+    {% assign post_index1 = forloop.index %}
+  {% endif %}
+{% endfor %}
+
+{% for post in site.tags[tag] %}
+  {% if post_index0 == forloop.index %}
+    {% assign next_post = post %}
+  {% endif %}
+  {% if post_index1 == forloop.index0 %}
+    {% assign prev_post = post %}
+  {% endif %}
+{% endfor %}
+      
+  {% if tag == 'event' %}
+    {% assign button = 'Evento' %}
+  {% elsif tag == 'class' %}
+    {% assign button = 'Corso' %}
+  {% else %}
+    {% assign button = 'Post' %}
+  {% endif %}
+
+
+         {% if prev_post %}
+          <a class="btn btn-primary float-left" href="{{ prev_post.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ prev_post.title }}">&larr;{{ button }} <span class="d-none d-md-inline">
+              precedente</span></a>
           {% endif %}
-          {% if page.next.url %}
-          <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline">
-              Post</span> &rarr;</a>
+     {% if next_post %}
+          <a class="btn btn-primary float-right" href="{{ next_post.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ next_post.title }}">{{ button }} <span class="d-none d-md-inline">
+              Successivo</span> &rarr;</a>
           {% endif %}
 
         </div>
