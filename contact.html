@@ -7,11 +7,13 @@ form: true
 ---
 
 <p>Vuoi saperne di più? Riempi il modulo sottostante per inviarmi un messaggio. Ti risponderò il prima possibile!</p>
-<form name="sentMessage" id="contactForm" novalidate action="https://formspree.io/xjvgeqbd" method="post">
+
+<form  action="https://formspree.io/xjvgeqbd" novalidate method="post">
+   <input type="hidden" name="_next" value="http://{{ site.url }}/thanks.html" />
   <div class="control-group">
     <div class="form-group floating-label-form-group controls">
       <label>Nome</label>
-      <input type="text" class="form-control" placeholder="Nome e cognome" id="name" required data-validation-required-message="Per favore scrivi il tuo nome" name="name">
+      <input type="text" class="form-control" placeholder="Nome e cognome" id="name" required data-validation-required-message="Per favore scrivi il tuo nome" name="_subject">
       <p class="help-block text-danger"></p>
     </div>
   </div>
@@ -30,7 +32,9 @@ form: true
     </div>
   </div>
   <br>
+  <div class="clearfix"></div>
   <div class="control-group">
-      <input type="submit" class="btn btn-primary" id="sendMessageButton" placeholder="Invio"></input>
+      <div id="success"></div>
+      <button type="submit" class="btn btn-primary" id="sendMessageButton" placeholder="Invio">Invio richiesta</button>
   </div>
 </form>
