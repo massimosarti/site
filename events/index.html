@@ -16,13 +16,19 @@ background: '/img/bg-events.jpg'
     <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
     {% endif %}
   </a>
-  <p class="post-meta">Post di
+  <p class="post-meta">
+     {% if post.where %}
+     {{ post.where }} &middot;
+    {% endif %}
+    {% if post.when %}
+     {{ post.when }} &middot;
+    {% endif %}  
+     Post di
     {% if post.author %}
     {{ post.author }}
     {% else %}
     {{ site.author }}
-    {% endif %}
-    - {{ post.date | date: '%B %Y' }} &middot; {% include read_time.html content=post.content %}
+    {% endif %} ( {{ post.date | date: '%B %Y' }} &middot; {% include read_time.html content=post.content %} )
   </p>
 </article>
 
