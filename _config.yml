@@ -3,8 +3,8 @@ email:              email at massimosarti.it
 description:        Trainer | Consultant | Community Manager
 author:             Massimo Sarti
 # baseurl:            "/startbootstrap-clean-blog-jekyll"
-baseurl:            "/site"
-url:                "https://massimosarti.it"
+baseurl:            "/"
+url:                "http://massimosarti.it"
 
 # Social Profiles
 twitter_username:   Omixxam
