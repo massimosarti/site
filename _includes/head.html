@@ -9,8 +9,8 @@
   </title>
     
   {% if page.background %}
-    <meta property="og:image" content="{{ page.background | prepend: site.baseurl | replace: '//', '/' }}" />
-    <meta name="twitter:image" content="{{ page.background | prepend: site.baseurl | replace: '//', '/' }}" />
+    <meta property="og:image" content="{{ site.social_img | prepend: site.baseurl | replace: '//', '/' }}" />
+    <meta name="twitter:image" content="{{ site.social_img | prepend: site.baseurl | replace: '//', '/' }}" />
   {% endif %}
 
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
