@@ -20,7 +20,7 @@ comments: true
             {% endif %}
             <span class="meta">Post di
               <a href="#">{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</a>
-              - {{ page.date | date: '%B %Y' }} &middot; {% include read_time.html
+              - {{ page.date | date: '%m %Y' }} &middot; {% include read_time.html
               content=page.content %}
             </span>
           </div>
