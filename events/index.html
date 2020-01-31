@@ -10,13 +10,13 @@ background: '/img/bg-events.jpg'
 <article class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
     <h2 class="post-title">
-         {% if post.where %}
+         [{% if post.where %}
             {{ post.where }} &middot;
         {% endif %}
         {% if post.when %}
-            {{ post.when }} &middot;
+            {{ post.when }}
         {% endif %}
-        {{ post.title }}
+        ] {{ post.title }}
     </h2>
     {% if post.subtitle %}
     <h3 class="post-subtitle">{{ post.subtitle }}</h3>
