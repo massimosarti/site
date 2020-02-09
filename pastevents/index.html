@@ -23,12 +23,12 @@ background: '/img/bg-event1.jpg'
     {% if post.when %}
      <b>{{ post.when }}</b> &middot;
     {% endif %}  
-     Post di
+       Post di
     {% if post.author %}
     {{ post.author }}
     {% else %}
     {{ site.author }}
-    {% endif %} ( {{ post.date | date: '%m/%Y' }} &middot; {% include read_time.html content=post.content %} )
+    {% endif %} (Creato: {{ post.date | date: '%Y/%m/%d' }} &middot; Ultima modifica: {{ post.last_modified_at | date: '%Y/%m/%d' }} &middot; {% include read_time.html content=post.content %} )
   </p>
 </article>
 
