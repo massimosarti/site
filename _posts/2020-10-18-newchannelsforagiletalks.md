@@ -11,8 +11,8 @@ background: '/img/posts/bg-agiletalkscolosseo.png'
 comments: false
 ---
 
-Grazie all'impegno di Noa Sevilla, noi di #AgileTalks abbiamo tutti questi canali per informarvi sui prossimi eventi online e in presenza e sulle prossime iniziative in Italia e nel mondo:
-[Facebook](https://www.facebook.com/agiletalksroma/)
-[Linkedin](https://www.linkedin.com/company/agile-talks/)
-[Telegram](https://t.me/AgileTalks)
-[Twitter](https://twitter.com/AgileTalksRoma)
+Grazie all'impegno di **Noa Sevilla**, noi di **#AgileTalks** abbiamo ora tutti questi canali per informarvi sui prossimi eventi online e in presenza e sulle prossime iniziative in Italia e nel mondo:
+* [Facebook](https://www.facebook.com/agiletalksroma/)
+* [Linkedin](https://www.linkedin.com/company/agile-talks/)
+* [Telegram](https://t.me/AgileTalks)
+* [Twitter](https://twitter.com/AgileTalksRoma)
