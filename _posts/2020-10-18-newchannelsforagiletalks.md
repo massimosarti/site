@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nuovi canali per Agile Talks
-subtitle: Inaugarati i canali Telegram, LinkedIn in aggiunta ai canali Facebook e Twitter 
+subtitle: Inaugurati i canali Telegram, LinkedIn in aggiunta ai canali Facebook e Twitter 
 tags: [event]
 date: 2020-10-18
 last_modified_at: 2020-10-18
