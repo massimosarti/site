@@ -9,8 +9,11 @@
   </title>
     
   {% if page.background %}
-    <meta property="og:image" content="{{ site.url }}/img/posts/{{ page.image }}" />
-    <meta name="twitter:image" content="{{ site.url }}/img/posts/{{ page.image }}" />
+    <meta property="og:image" content="{{ site.url }}{{ page.background }}" />
+    <meta name="twitter:image" content="{{ site.url }}{{ page.background }}" />
+  {% else %}
+    <meta property="og:image" content="{{ site.social_img | prepend: site.baseurl | replace: '//', '/' }}" />
+    <meta name="twitter:image" content="{{ site.social_img | prepend: site.baseurl | replace: '//', '/' }}" />
   {% endif %}
 
   <meta name="description" content="{{ site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
