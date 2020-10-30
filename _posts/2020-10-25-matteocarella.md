@@ -2,9 +2,9 @@
 layout: post
 title: "Agile Talks Webinar Series"
 subtitle: "Matteo Carella presenta: 'Alla fine, è solo una questione di etica'"
-tags: [event]
+tags: [pastevent]
 date: 2020-10-25
-last_modified_at: 2020-10-25
+last_modified_at: 2020-10-30
 where: Webinar
 when: 29 Ottobre 2020
 background: '/img/posts/bg-ethicsthisway.jpg'
@@ -16,4 +16,4 @@ Perchè qualsiasi tema che riguardi dei cambiamenti su larga scala merita anche 
 
 **Webinar online, 29 ottobre 2020, 6.30 PM CET**
 
-Maggiori informazioni ed iscrizioni: [Agile Talks Meetup](https://www.meetup.com/Agile_Talks/events/273793858/)
+Maggiori informazioni: [Agile Talks Meetup](https://www.meetup.com/Agile_Talks/events/273793858/)
