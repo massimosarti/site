@@ -4,7 +4,7 @@ title: How are you?
 subtitle: Reflections about these unprecedented times after a short online conversation with Elisabetta Alicino
 tags: [post]
 date: 2020-10-25 
-last_modified_at: 2020-10-25 
+last_modified_at: 2020-10-31 
 background: '/img/posts/bg-unprecentedtimes.png'
 comments: false
 ---
@@ -47,3 +47,5 @@ Could the next rite be that of the consequences of *climate change*? If so, it w
 We are leaving a huge debt to our children and grandchildren. I trust they will be better generations than ours. 
 
 Thanks for your time and attention.
+
+> Suggested music for this post: [Robert Glasper: Better than I imagined](https://open.spotify.com/track/04vYVsWbhkQaTLx2kgVNks?si=CaFQAUD2TEKh61uOhym9uQ)
