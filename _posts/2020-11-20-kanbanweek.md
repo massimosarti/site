@@ -7,7 +7,7 @@ date: 2020-11-20
 last_modified_at: 2020-11-20
 where: Online
 when: 14-17 Dicembre 2020
-background: '/img/posts/bg-kanbanweek-jpg'
+background: '/img/posts/bg-kanbanweek.jpg'
 comments: false
 ---
 Prima della fine di quest'anno bizzarro, vuoi diventare **Kanban Management Professional** seguendo 4 giorni di full immersion online?  
