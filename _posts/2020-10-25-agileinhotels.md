@@ -2,9 +2,9 @@
 layout: post
 title: "Agile Talks Webinar Series"
 subtitle: "Agile in Hotels.com: Essenza ed Adattamento"
-tags: [event]
+tags: [pastevent]
 date: 2020-10-25
-last_modified_at: 2020-10-25
+last_modified_at: 2020-11-24
 where: Webinar
 when: 23 Novembre 2020
 background: '/img/posts/bg-agileinhotels.png'
@@ -22,4 +22,4 @@ E vi raccontiamo di una recente collaborazione con un'organizzazione che lavora 
 
 **Webinar online, 23 novembre 2020, 6.30 PM CET**
 
-Maggiori informazioni ed iscrizioni: [Agile Talks Meetup](https://www.meetup.com/Agile_Talks/events/273774632/)
+Maggiori informazioni: [Agile Talks Meetup](https://www.meetup.com/Agile_Talks/events/273774632/)
