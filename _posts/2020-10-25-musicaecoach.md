@@ -2,9 +2,9 @@
 layout: post
 title: "Agile Talks Webinar Series"
 subtitle: "Michelangelo Canonico presenta: 'Musica e Agile Coaching'"
-tags: [event]
+tags: [pastevent]
 date: 2020-10-25
-last_modified_at: 2020-10-25
+last_modified_at: 2021-01-05
 where: Webinar
 when: 9 Dicembre 2020
 background: '/img/posts/bg-music.jpg'
