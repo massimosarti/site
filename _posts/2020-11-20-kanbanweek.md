@@ -2,9 +2,9 @@
 layout: post
 title: Kanban Week
 subtitle: Diventa Kanban Management Professional in 4 giorni di full immersion
-tags: [class]
+tags: [pastclass]
 date: 2020-11-20
-last_modified_at: 2020-11-20
+last_modified_at: 2021-02-05
 where: Online
 when: 14-17 Dicembre 2020
 background: '/img/posts/bg-kanbanweek.jpg'
